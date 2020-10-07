@@ -84,13 +84,22 @@
 .card {
   margin: 1rem;
   flex-basis: 45%;
-  padding: 1.5rem;
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
+  border: 2px solid #eaeaea;
   transition: color 0.15s ease, border-color 0.15s ease;
+
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  position: relative;
+  width: 100%;
+  height: 120px;
+  cursor: pointer;
 }
 
 .card:hover,
@@ -119,5 +128,8 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+  .card {
+    margin: 1rem 0;
   }
 }

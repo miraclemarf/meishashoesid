@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Meishashoes.id - WOMAN BRANDED SHOES & BAG AUTHENTIC</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -21,31 +21,25 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <h4>Our Latest Catalogue &rarr;</h4>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <h4>Chat us for Fast Order &rarr;</h4>
           </a>
 
           <a
             href="https://github.com/vercel/next.js/tree/master/examples"
             className={styles.card}
           >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h4>Join us to be a Reseller &rarr;</h4>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://github.com/vercel/next.js/tree/master/examples"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantlys deploy your Next.js site to a public URL with Vercel.
-            </p>
+            <h4>Feels free for Complaints &rarr;</h4>
           </a>
         </div>
       </main>
@@ -56,8 +50,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          Powered by @meishashoes.id - 2020
         </a>
       </footer>
     </div>
