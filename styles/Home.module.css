@@ -134,9 +134,19 @@
 }
 
 @media (max-width: 600px) {
+  .main{
+    padding: 2rem 0;
+  }
+  .main img{
+    width: 130px;
+  }
   .title {
     line-height: 1.75;
     margin-top: 0.75rem;
+    font-size: 2rem;
+  }
+  .title .code{
+    font-size:2rem;
   }
   .grid {
     width: 100%;
@@ -148,5 +158,8 @@
   .card h4 {
     padding: 1rem;
     font-size: 1rem;
+  }
+  .description{
+    font-size: 1.1rem;
   }
 }
