@@ -19,7 +19,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-        👋 Hi Sister & Ladies, Lagi cari tas 👜 & sepatu 👠 branded?! Kami menjual produk ex-counter dari brand terkenal Zara, Charles & Keith, Guess, Pedro, dll dengan harga mulai dari 300 ribuan 🤩💰 dan udah pasti original 💯%. Silahkan klik link yang ada di bawah ini 👇👇 untuk kepoin kita lebih lanjut. Happy Shopping!!🛒 
+        👋 Hi Sister & Ladies, Lagi cari tas 👜 & sepatu 👠 branded?! Kami menjual produk ex-counter dari brand terkenal Zara, Charles & Keith, Guess, Pedro, dll dengan harga mulai dari 300 ribuan 🤩💰 dan udah pasti original 💯%. Silahkan klik link yang ada di bawah ini 👇👇 untuk mengetahui lebih lanjut. Happy Shopping!! 🛒 
         </p>
 
         <div className={styles.grid}>
@@ -33,7 +33,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://www.instagram.com/stories/highlights/17869167259957944/"
+            href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3ODY5MTY3MjU5OTU3OTQ0?igshid=drfe713be66a&story_media_id=2378861719433227971_265873076"
             className={styles.card}
           >
             <h4>❤️ Testimonial Kami ❤️</h4>
