@@ -83,7 +83,7 @@
 .grid {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
 
   max-width: 800px;
@@ -94,12 +94,8 @@
   margin: 1rem;
   flex-basis: 45%;
   text-align: left;
-  color: inherit;
+  color: white;
   text-decoration: none;
-  border: 2px solid #eaeaea;
-  transition: color 0.15s ease, border-color 0.15s ease;
-
-  display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
           justify-content: center;
@@ -109,18 +105,54 @@
   width: 100%;
   height: 100px;
   cursor: pointer;
+  z-index: 1;
+  background: none;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, .5);
+  text-transform: uppercase;
+}
+
+.card:before, .card:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  width: 105%;
+  height: 105%;
+  content: '';
+  z-index: -2;
+  background-size: 400% 400%;
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+}
+.card:before {
+  -webkit-filter: blur(7px);
+          filter: blur(7px);
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+  -webkit-animation: pulse 10s infinite ease;
+          animation: pulse 10s infinite ease;
+}
+.card:after {
+  -webkit-filter: blur(0.3px);
+          filter: blur(0.3px);
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: white;
+}
+.card:focus:before,
+.card:active:before,
+.card:hover:before {
+  width: 110%;
+  height: 110%;
 }
 
 .card h4 {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 400;
 }
 
 .card p {
@@ -133,9 +165,17 @@
   height: 1em;
 }
 
+
+
+@keyframes up-down {
+  50% {
+    margin-top: -20px;
+  }
+}
+
 @media (max-width: 600px) {
   .main{
-    padding: 2rem 0;
+    padding: 2em 0;
   }
   .main img{
     width: 130px;
@@ -151,15 +191,18 @@
   .grid {
     width: 100%;
     flex-direction: column;
+    margin-top: 1em;
   }
   .card {
-    margin: .5rem 0;
+    margin: 1rem 0;
+    max-width: 90%;
   }
   .card h4 {
-    padding: 1rem;
+    padding: 1.75rem 0;
     font-size: 1rem;
   }
   .description{
-    font-size: 1.1rem;
+    font-size: 1rem;
+    line-height: 1.75;
   }
 }
