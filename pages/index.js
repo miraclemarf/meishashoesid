@@ -22,23 +22,23 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-        <a href="https://bit.ly/meishashoes" className={styles.card}>
+        <a id="btn-order" href="https://bit.ly/meishashoes" className={styles.card}>
             <h4>💬 Pesan Cepat? Chat Kami 💬</h4>
             <div className={styles.hands}></div>
           </a>
 
-          <a href="https://www.instagram.com/meishashoes.id/" className={styles.card}>
+          <a id="btn-catalogig" href="https://www.instagram.com/meishashoes.id/" className={styles.card}>
             <h4>😍 Produk terbaru 😍</h4>
           </a>
 
-          <a
+          <a id="btn-highlightig"
             href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3ODY5MTY3MjU5OTU3OTQ0?igshid=drfe713be66a&story_media_id=2378861719433227971_265873076"
             className={styles.card}
           >
             <h4>❤️ Testimonial Kami ❤️</h4>
           </a>
 
-          <a
+          <a id="btn-joinres"
             href="https://bit.ly/meishashoes"
             className={styles.card}
           >
