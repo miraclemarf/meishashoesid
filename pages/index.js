@@ -17,7 +17,6 @@ export default function Home() {
           Welcome to, {' '}
           <code className={styles.code}>Meishashoes.id!</code>
         </h1>
-
         <p className={styles.description}>
         👋 Hi Sister & Ladies, Lagi cari tas 👜 & sepatu 👠 branded?! Kami menjual produk ex-counter dari brand terkenal Zara, Charles & Keith, Guess, Pedro, dll dengan harga mulai dari 300 ribuan 🤩💰 dan udah pasti original 💯%. Silahkan klik link yang ada di bawah ini 👇👇 untuk mengetahui lebih lanjut. Happy Shopping!! 🛒 
         </p>
