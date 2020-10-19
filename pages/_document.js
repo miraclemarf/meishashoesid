@@ -10,7 +10,7 @@ export default class MyDocument extends Document {
               __html: `
               (function() {
                 var ta = document.createElement('script'); ta.type = 'text/javascript'; ta.async = true;
-                ta.src = 'https://analytics.tiktok.com/i18n/pixel/sdk.js?sdkid=BU67PK5BQ1HOVJLH97PG';
+                ta.src = 'https://analytics.tiktok.com/i18n/pixel/sdk.js?sdkid=BU691HDBQ1HOVJLH99A0';
                 var s = document.getElementsByTagName('script')[0];
                 s.parentNode.insertBefore(ta, s);
               })();
