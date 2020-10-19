@@ -18,7 +18,7 @@ export default function Home() {
           <code className={'code'}>Meishashoes.id!</code>
         </h1>
         <p className={'description'}>
-        👋 Hai sisters lagi cari tas 👜, sepatu 👠 branded ?! Kami menjual produk sisa counter dari brand terkenal Zara, Charles & Keith, Guess, Pedro dengan harga 70% lebih murah dari counter di Mall!! 🤩💰 Harga mulai 300 ribuan dan udah pasti dijamin barang original 💯%. Kita trusted seller sejak Agustus 2019, sudah ratusan testimoni yang puas belanja sama kita. Kalian penasaran sama produk yg kita jual?! Silahkan klik link yang ada di bawah ini 👇👇 untuk mengetahui produk lebih lanjut. Happy Shopping Sis!! 🛒 
+        👋 Hai sisters lagi cari tas 👜, sepatu 👠 branded ?! Kami menjual produk sisa counter dari brand terkenal Zara, Charles & Keith, Guess, Pedro dengan harga 70% lebih murah dari counter di Mall!! 🤩💰 Harga mulai dari 300 ribuan dan udah pasti dijamin barang original 💯%. Kita trusted seller sejak Agustus 2019, sudah ratusan testimoni yang puas belanja sama kita. Kalian penasaran sama produk yg kita jual?! Silahkan klik link yang ada di bawah ini 👇👇 untuk mengetahui produk lebih lanjut. Happy Shopping Sis!! 🛒 
         </p>
         <div style={{display:"flex", alignContent:"center", alignItems:"center"}}>
           <div style={{marginRight:"10px"}}>
