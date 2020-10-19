@@ -11,8 +11,8 @@ export default class MyDocument extends Document {
               (function() {
                 var ta = document.createElement('script'); ta.type = 'text/javascript'; ta.async = true;
                 ta.src = 'https://analytics.tiktok.com/i18n/pixel/sdk.js?sdkid=BU691HDBQ1HOVJLH99A0';
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(ta, s);
+                var s = document.getElementsByTagName('head')[0];
+                s.insertBefore(ta, s.firstChild);
               })();
           `,
             }}
