@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import InstagramEmbed from 'react-instagram-embed';
+
+import IgEmbed from '../components/igEmbed';
 import '../styles/Home.module.css'
 
 export default function Home() {
@@ -28,13 +30,11 @@ export default function Home() {
         </p>
         </div>
         <div style={{ marginBottom: "1.5em", marginTop: "2.5em", textAlign: "center" }}>
-          <h2 style={{ textTransform: "uppercase", margin: "0" }}>Promo Free Ongkir!!</h2>
+          <h2 style={{ textTransform: "uppercase", margin: "0" }}>Our Testimonials</h2>
         </div>
-        <div style={{textAlign:"center"}}>
-          <img style={{width:"100%", maxWidth:"420px"}} src="https://instagram.fcgk11-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/122179192_811442399416946_985834627244650517_n.jpg?_nc_ht=instagram.fcgk11-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=Au1HJm139bUAX8AcB_v&_nc_tp=24&oh=314c5745874f502b49c7ab1211480196&oe=5FC1F58D" />
-
+        <div style={{display:"block"}} onClick={()=>{alert('asd')}}>
+        <IgEmbed />
         </div>
-
         <div style={{marginTop: "3em", textAlign: "center" }}>
           <h2 style={{ textTransform: "uppercase", margin: "0" }}>KLIK MENU 👇👇</h2>
         </div>
