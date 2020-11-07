@@ -47,7 +47,7 @@ export default class MyDocument extends Document {
         <body>
           <noscript  dangerouslySetInnerHTML={{
             __html: `<img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=1300555053629135&ev=PageView&noscript=1"`,
+            src="https://www.facebook.com/tr?id=1300555053629135&ev=PageView&noscript=1" />`,
           }}
           />
           <Main />
