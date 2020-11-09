@@ -209,4 +209,7 @@ iframe{
   .sliders{
     overflow-x: auto;
   }
+  .promo{
+    max-width: 100% !important;
+  }
 }
