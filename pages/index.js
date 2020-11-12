@@ -14,7 +14,7 @@ export default function Home() {
 
       <main className={'main'}>
         <div className={'logoPro'} style={{ textAlign: "center" }}>
-          <img style={{ borderRadius: "50%", border: "2px solid #ccc" }} src="https://scontent-sin6-1.cdninstagram.com/v/t51.2885-19/s150x150/92373161_211333956788365_8151595336486354944_n.jpg?_nc_ht=scontent-sin6-1.cdninstagram.com&_nc_ohc=ShE93RhfmMEAX-ZsUKH&oh=3ac09e452b4466a2d415c098b22855b7&oe=5FAA1F26" alt="" />
+          <img style={{ borderRadius: "50%", border: "2px solid #ccc" }} src="/hlimg.jpg" alt="" />
         </div>
 
         <div style={{ display: "flex", justifyContent: "center" }}>
