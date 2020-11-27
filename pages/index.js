@@ -30,6 +30,12 @@ export default function Home() {
         </p>
         </div>
         <div style={{ marginBottom: "1.5em", marginTop: "2.5em", textAlign: "center" }}>
+          <h2 style={{ textTransform: "uppercase", margin: "0" }}>Promo Gajian!!</h2>
+        </div>	        
+        <div style={{textAlign:"center"}}>	    
+          <img className={'promo'} src="/promo2.jpeg" style={{maxWidth:"40%"}} />
+        </div>	   
+        <div style={{ marginBottom: "1.5em", marginTop: "2.5em", textAlign: "center" }}>
           <h2 style={{ textTransform: "uppercase", margin: "0" }}>Our Testimonials</h2>
         </div>
         <div style={{display:"block"}} >
