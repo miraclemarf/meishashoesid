@@ -25,23 +25,25 @@ export default function Home() {
         </div>
         <div style={{ display: "flex", justifyContent: "center" }}>
 
-          <p style={{fontSize:"1em"}} className={'description'}>
-            👋 Hai Sister, lagi cari tas 👜 dan sepatu 👠 branded ?! Kami menjual produk sisa counter dari brand terkenal Zara, Charles & Keith, Guess, Pedro dengan harga 70% lebih murah dari counter di Mall!! 🤩💰 Harga mulai dari 300 ribuan dan udah pasti dijamin barang original 💯%. Meishashoes.id berdiri sejak Agustus 2019 dan sudah ratusan testimoni yang puas belanja dengan kami. Kalian penasaran sama produk yg kita jual?! Silahkan hubungi kami di <b>Instagram <a href="https://www.instagram.com/meishashoes.id/" style={{borderBottom:"1px solid"}} target="_blank" rel="noopener noreferrer">@meishashoes.id</a> / Whatsapp <a onClick={()=>{fbq('track', 'Contact');}} href="https://bit.ly/meishashoes" style={{borderBottom:"1px solid"}} target="_blank" rel="noopener noreferrer"> 081513118658</a></b> dengan cara klik link yang ada di bawah ini 👇👇 untuk mengetahui lebih lanjut. Happy Shopping Sis!! 🛒
+          <p style={{ fontSize: "1em" }} className={'description'}>
+            👋 Hai Sister, lagi cari tas 👜 dan sepatu 👠 branded ?! Kami menjual produk sisa counter dari brand terkenal Zara, Charles & Keith, Guess, Pedro dengan harga 70% lebih murah dari counter di Mall!! 🤩💰 Harga mulai dari 300 ribuan dan udah pasti dijamin barang original 💯%. Meishashoes.id berdiri sejak Agustus 2019 dan sudah ratusan testimoni yang puas belanja dengan kami. Kalian penasaran sama produk yg kita jual?! Silahkan hubungi kami di <b>Instagram <a href="https://www.instagram.com/meishashoes.id/" style={{ borderBottom: "1px solid" }} target="_blank" rel="noopener noreferrer">@meishashoes.id</a> / Whatsapp <a onClick={() => { fbq('track', 'Contact'); }} href="https://bit.ly/meishashoes" style={{ borderBottom: "1px solid" }} target="_blank" rel="noopener noreferrer"> 081513118658</a></b> dengan cara klik link yang ada di bawah ini 👇👇 untuk mengetahui lebih lanjut. Happy Shopping Sis!! 🛒
         </p>
         </div>
-        <div style={{ marginBottom: "1.5em", marginTop: "2.5em", textAlign: "center" }}>	
-          <h2 style={{ textTransform: "uppercase", margin: "0" }}>PROMO 12K FOLLOWERS!!</h2>	
-        </div>	        	
-        <div style={{textAlign:"center"}}>	    	
-          <img className={'promo'} src="/promo.gif" style={{maxWidth:"40%"}} />	
-        </div>	 
+        <div style={{ marginBottom: "1.5em", marginTop: "2.5em", textAlign: "center" }}>
+          <h2 style={{ textTransform: "uppercase", margin: "0" }}>PROMO 12K FOLLOWERS!!</h2>
+        </div>
+        <div style={{ textAlign: "center" }}>
+          <a onClick={() => { fbq('track', 'Contact'); }} href="https://bit.ly/meishashoes" target="_blank" rel="noopener noreferrer">
+            <img className={'promo'} src="/promo.gif" style={{ maxWidth: "40%" }} />
+          </a>
+        </div>
         <div style={{ marginBottom: "1.5em", marginTop: "2.5em", textAlign: "center" }}>
           <h2 style={{ textTransform: "uppercase", margin: "0" }}>Our Testimonials</h2>
         </div>
-        <div style={{display:"block"}} >
-        <IgEmbed />
+        <div style={{ display: "block" }} >
+          <IgEmbed />
         </div>
-        <div style={{marginTop: "3em", textAlign: "center" }}>
+        <div style={{ marginTop: "3em", textAlign: "center" }}>
           <h2 style={{ textTransform: "uppercase", margin: "0" }}>KLIK MENU 👇👇</h2>
         </div>
         <div className={'grid'}>
@@ -68,7 +70,7 @@ export default function Home() {
             <h4>✔️ Gabung Dropship/Reseller ✔️</h4>
           </a>
         </div>
-        <div style={{ display: "flex", justifyContent: "center", marginTop:"3em" }}>
+        <div style={{ display: "flex", justifyContent: "center", marginTop: "3em" }}>
           <div style={{ display: "flex", alignContent: "center", alignItems: "center" }}>
             <div style={{ marginRight: "10px" }}>
               Follow Us :
@@ -89,7 +91,7 @@ export default function Home() {
       </main>
 
       <footer className={'footer'}>
-          Powered by @meishashoes.id - 2020
+        Powered by @meishashoes.id - 2020
       </footer>
     </div>
   )
