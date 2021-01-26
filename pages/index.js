@@ -30,7 +30,7 @@ export default function Home() {
         </p>
         </div>
         <div style={{ marginBottom: "1.5em", marginTop: "2.5em", textAlign: "center" }}>
-          <h2 style={{ textTransform: "uppercase", margin: "0" }}>PROMO 12K FOLLOWERS!!</h2>
+          <h2 style={{ textTransform: "uppercase", margin: "0" }}>PROMO GAJIANNN!!</h2>
         </div>
         <div style={{ textAlign: "center" }}>
           <a onClick={() => { fbq('track', 'Contact'); }} href="https://bit.ly/meishashoes" target="_blank" rel="noopener noreferrer">
