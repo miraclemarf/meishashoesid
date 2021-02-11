@@ -30,11 +30,11 @@ export default function Home() {
         </p>
         </div>
         <div style={{ marginBottom: "1.5em", marginTop: "2.5em", textAlign: "center" }}>
-          <h2 style={{ textTransform: "uppercase", margin: "0" }}>PROMO GAJIANNN!!</h2>
+          <h2 style={{ textTransform: "uppercase", margin: "0" }}>PROMO FEBRUARY!!</h2>
         </div>
         <div style={{ textAlign: "center" }}>
           <a onClick={() => { fbq('track', 'Contact'); }} href="https://bit.ly/meishashoes" target="_blank" rel="noopener noreferrer">
-            <img className={'promo'} src="/promo-pd-270121.jpg" style={{ maxWidth: "40%" }} />
+            <img className={'promo'} src="/promo-feb.gif" style={{ maxWidth: "40%" }} />
           </a>
         </div>
         <div style={{ marginBottom: "1.5em", marginTop: "2.5em", textAlign: "center" }}>
