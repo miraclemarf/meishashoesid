@@ -26,7 +26,7 @@ export default function Home() {
         <div style={{ display: "flex", justifyContent: "center" }}>
 
           <p style={{ fontSize: "1em" }} className={'description'}>
-            👋 Hai Sister, lagi cari tas 👜 dan sepatu 👠 branded ?! Kami menjual produk sisa counter dari brand terkenal Zara, Charles & Keith, Guess, Pedro dengan harga 70% lebih murah dari counter di Mall!! 🤩💰 Harga mulai dari 300 ribuan dan udah pasti dijamin barang original 💯%. Meishashoes.id berdiri sejak Agustus 2019 dan sudah ratusan testimoni yang puas belanja dengan kami. Kalian penasaran sama produk yg kita jual?! Silahkan hubungi kami di <b>Instagram <a href="https://www.instagram.com/meishashoes.id/" style={{ borderBottom: "1px solid" }} target="_blank" rel="noopener noreferrer">@meishashoes.id</a> / Whatsapp <a onClick={() => { fbq('track', 'Contact'); }} href="https://bit.ly/meishashoes" style={{ borderBottom: "1px solid" }} target="_blank" rel="noopener noreferrer"> 081513118658</a></b> dengan cara klik link yang ada di bawah ini 👇👇 untuk mengetahui lebih lanjut. Happy Shopping Sis!! 🛒
+            👋 Hai Sister, lagi cari tas 👜 dan sepatu 👠 branded ?! Kami menjual produk sisa counter dari brand terkenal Zara, Charles & Keith, Guess, Pedro dengan harga 70% lebih murah dari counter di Mall!! 🤩💰 Harga mulai dari 300 ribuan dan udah pasti dijamin barang original 💯%. Meishashoes.id berdiri sejak Agustus 2019 dan sudah ratusan testimoni yang puas belanja dengan kami. Kalian penasaran sama produk yg kita jual?! Silahkan hubungi kami di <b>Facebook <a href="https://bit.ly/fb-meishashoesid" style={{ borderBottom: "1px solid" }} target="_blank" rel="noopener noreferrer">Meishashoes.id</a> / Whatsapp <a onClick={() => { fbq('track', 'Contact'); }} href="https://bit.ly/meishashoes" style={{ borderBottom: "1px solid" }} target="_blank" rel="noopener noreferrer"> 081513118658</a></b> dengan cara klik link yang ada di bawah ini 👇👇 untuk mengetahui lebih lanjut. Happy Shopping Sis!! 🛒
         </p>
         </div>
         <div style={{ marginBottom: "1.5em", marginTop: "2.5em", textAlign: "center" }}>
@@ -37,12 +37,12 @@ export default function Home() {
             <img className={'promo'} src="/promo-feb.gif" style={{ maxWidth: "40%" }} />
           </a>
         </div>
-        <div style={{ marginBottom: "1.5em", marginTop: "2.5em", textAlign: "center" }}>
+        {/* <div style={{ marginBottom: "1.5em", marginTop: "2.5em", textAlign: "center" }}>
           <h2 style={{ textTransform: "uppercase", margin: "0" }}>Our Testimonials</h2>
         </div>
         <div style={{ display: "block" }} >
           <IgEmbed />
-        </div>
+        </div> */}
         <div style={{ marginTop: "3em", textAlign: "center" }}>
           <h2 style={{ textTransform: "uppercase", margin: "0" }}>KLIK MENU 👇👇</h2>
         </div>
@@ -52,12 +52,12 @@ export default function Home() {
             <div className={'hands'}></div>
           </a>
 
-          <a id="btn-catalogig" href="https://www.instagram.com/meishashoes.id/" target="_blank" className={'card'}>
+          <a id="btn-catalogig" href="https://bit.ly/fb-meishashoesid" target="_blank" className={'card'}>
             <h4>😍 Produk terbaru 😍</h4>
           </a>
 
           <a id="btn-highlightig"
-            href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTE5MzE1OTEzNDY1NTY5?igshid=9r6qaprhydv3&story_media_id=2408560414629865886_265873076"
+            href="https://bit.ly/fb-meishashoesid"
             className={'card'} target="_blank"
           >
             <h4>❤️ Testimonial Kami ❤️</h4>
@@ -82,7 +82,7 @@ export default function Home() {
               <a href="https://vt.tiktok.com/ZSxbJMuE/" target="_blank">
                 <div style={{ marginRight: "10px", background: "white", borderRadius: "50%", width: "45px", height: "45px", display: "flex", alignItems: "center" }}><img style={{ width: "auto", margin: "auto" }} height={"22"} src="https://www.flaticon.com/svg/static/icons/svg/3046/3046121.svg" alt="" /></div>
               </a>
-              <a href="https://bit.ly/meishashoes" target="_blank">
+              <a href="https://bit.ly/fb-meishashoesid" target="_blank">
                 <div style={{ background: "white", borderRadius: "50%", width: "45px", height: "45px", display: "flex", alignItems: "center" }}><img style={{ width: "auto", margin: "auto" }} height={"22"} src="https://www.flaticon.com/svg/static/icons/svg/1384/1384055.svg" alt="" /></div>
               </a>
             </div>
@@ -91,7 +91,7 @@ export default function Home() {
       </main>
 
       <footer className={'footer'}>
-        Powered by @meishashoes.id - 2020
+        Powered by @meishashoes.id - 2021
       </footer>
     </div>
   )
