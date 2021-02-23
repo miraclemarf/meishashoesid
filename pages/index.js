@@ -82,7 +82,7 @@ export default function Home() {
               <a href="https://vt.tiktok.com/ZSxbJMuE/" target="_blank">
                 <div style={{ marginRight: "10px", background: "white", borderRadius: "50%", width: "45px", height: "45px", display: "flex", alignItems: "center" }}><img style={{ width: "auto", margin: "auto" }} height={"22"} src="https://www.flaticon.com/svg/static/icons/svg/3046/3046121.svg" alt="" /></div>
               </a>
-              <a href="https://bit.ly/fb-meishashoesid" target="_blank">
+              <a href="https://bit.ly/meishashoes" target="_blank">
                 <div style={{ background: "white", borderRadius: "50%", width: "45px", height: "45px", display: "flex", alignItems: "center" }}><img style={{ width: "auto", margin: "auto" }} height={"22"} src="https://www.flaticon.com/svg/static/icons/svg/1384/1384055.svg" alt="" /></div>
               </a>
             </div>
