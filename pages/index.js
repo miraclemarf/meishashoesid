@@ -26,7 +26,7 @@ export default function Home() {
         <div style={{ display: "flex", justifyContent: "center" }}>
 
           <p style={{ fontSize: "1em" }} className={'description'}>
-            👋 Hai Sister, lagi cari tas 👜 dan sepatu 👠 branded ?! Kami menjual produk sisa counter dari brand terkenal Zara, Charles & Keith, Guess, Pedro dengan harga 70% lebih murah dari counter di Mall!! 🤩💰 Harga mulai dari 300 ribuan dan udah pasti dijamin barang original 💯%. Meishashoes.id berdiri sejak Agustus 2019 dan sudah ratusan testimoni yang puas belanja dengan kami. Kalian penasaran sama produk yg kita jual?! Silahkan hubungi kami di <b>Facebook <a href="https://bit.ly/fb-meishashoesid" style={{ borderBottom: "1px solid" }} target="_blank" rel="noopener noreferrer">Meishashoes.id</a> / Whatsapp <a onClick={() => { fbq('track', 'Contact'); }} href="https://bit.ly/meishashoes" style={{ borderBottom: "1px solid" }} target="_blank" rel="noopener noreferrer"> 081513118658</a></b> dengan cara klik link yang ada di bawah ini 👇👇 untuk mengetahui lebih lanjut. Happy Shopping Sis!! 🛒
+            👋 Hai Sister, lagi cari tas 👜 dan sepatu 👠 branded ?! Kami menjual produk sisa counter dari brand terkenal Zara, Charles & Keith, Guess, Pedro dengan harga 70% lebih murah dari counter di Mall!! 🤩💰 Harga mulai dari 300 ribuan dan udah pasti dijamin barang original 💯%. Meishashoes.id berdiri sejak Agustus 2019 dan sudah ratusan testimoni yang puas belanja dengan kami. Kalian penasaran sama produk yg kita jual?! Silahkan hubungi kami di <b>Instagram <a href="https://www.instagram.com/meishashoes.id_/" style={{ borderBottom: "1px solid" }} target="_blank" rel="noopener noreferrer">Meishashoes.id</a> / Whatsapp <a onClick={() => { fbq('track', 'Contact'); }} href="https://bit.ly/meishashoes" style={{ borderBottom: "1px solid" }} target="_blank" rel="noopener noreferrer"> 081513118658</a></b> dengan cara klik link yang ada di bawah ini 👇👇 untuk mengetahui lebih lanjut. Happy Shopping Sis!! 🛒
         </p>
         </div>
         <div style={{ marginBottom: "1.5em", marginTop: "2.5em", textAlign: "center" }}>
@@ -52,12 +52,12 @@ export default function Home() {
             <div className={'hands'}></div>
           </a>
 
-          <a id="btn-catalogig" href="https://bit.ly/fb-meishashoesid" target="_blank" className={'card'}>
+          <a id="btn-catalogig" href="https://www.instagram.com/meishashoes.id_/" target="_blank" className={'card'}>
             <h4>😍 Produk terbaru 😍</h4>
           </a>
 
           <a id="btn-highlightig"
-            href="https://bit.ly/fb-meishashoesid"
+            href="https://www.instagram.com/meishashoes.id_/"
             className={'card'} target="_blank"
           >
             <h4>❤️ Testimonial Kami ❤️</h4>
@@ -76,9 +76,10 @@ export default function Home() {
               Follow Us :
           </div>
             <div style={{ display: "flex", alignItems: "center", alignContent: "center" }}>
-              <a href="https://bit.ly/fb-meishashoesid" target="_blank">
-                <div style={{ marginRight: "10px", background: "white", borderRadius: "50%", width: "45px", height: "45px", display: "flex", alignItems: "center" }}><img style={{ width: "auto", margin: "auto" }} height={"22"} src="https://www.flaticon.com/svg/static/icons/svg/145/145802.svg" alt="" /></div>
+              <a href="https://www.instagram.com/meishashoes.id_/" target="_blank">
+                <div style={{ marginRight: "10px", background: "white", borderRadius: "50%", width: "45px", height: "45px", display: "flex", alignItems: "center" }}><img style={{ width: "auto", margin: "auto" }} height={"22"} src="https://www.flaticon.com/svg/static/icons/svg/2111/2111463.svg" alt="" /></div>
               </a>
+              {/* https://www.flaticon.com/svg/static/icons/svg/145/145802.svg */}
               {/* https://www.flaticon.com/svg/static/icons/svg/2111/2111463.svg */}
               <a href="https://vt.tiktok.com/ZSxbJMuE/" target="_blank">
                 <div style={{ marginRight: "10px", background: "white", borderRadius: "50%", width: "45px", height: "45px", display: "flex", alignItems: "center" }}><img style={{ width: "auto", margin: "auto" }} height={"22"} src="https://www.flaticon.com/svg/static/icons/svg/3046/3046121.svg" alt="" /></div>
