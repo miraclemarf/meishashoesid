@@ -38,16 +38,17 @@ export default class MyDocument extends Document {
             t.src=v;s=b.getElementsByTagName(e)[0];
             s.parentNode.insertBefore(t,s)}(window, document,'script',
             'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '1104963419957732');
+            fbq('init', '1300555053629135');
             fbq('track', 'PageView');
             `,
           }}
           />
+          <meta name="facebook-domain-verification" content="9z2tayjnw2i67q23zhrd3goimd8d6d" />
         </Head>
         <body>
           <noscript  dangerouslySetInnerHTML={{
             __html: `<img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=1104963419957732&ev=PageView&noscript=1" />`,
+            src="https://www.facebook.com/tr?id=1300555053629135&ev=PageView&noscript=1" />`,
           }}
           />
           <Main />
