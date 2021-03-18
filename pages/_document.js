@@ -43,6 +43,7 @@ export default class MyDocument extends Document {
             `,
           }}
           />
+          <meta name="facebook-domain-verification" content="9z2tayjnw2i67q23zhrd3goimd8d6d" />
         </Head>
         <body>
           <noscript  dangerouslySetInnerHTML={{
