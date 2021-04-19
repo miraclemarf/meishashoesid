@@ -68,7 +68,7 @@ export default function Home() {
               Follow Us :
           </div>
             <div style={{ display: "flex", alignItems: "center", alignContent: "center" }}>
-              <a href="https://www.instagram.com/meishashoes.id_/" target="_blank">
+              <a href="https://www.instagram.com/meisha_shoes.id" target="_blank">
                 <div style={{ marginRight: "10px", background: "white", borderRadius: "50%", width: "45px", height: "45px", display: "flex", alignItems: "center" }}><img style={{ width: "auto", margin: "auto" }} height={"22"} src="https://www.flaticon.com/svg/static/icons/svg/2111/2111463.svg" alt="" /></div>
               </a>
               {/* https://www.flaticon.com/svg/static/icons/svg/145/145802.svg */}
