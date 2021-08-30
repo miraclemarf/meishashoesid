@@ -26,7 +26,7 @@ export default function Home() {
         <div style={{ display: "flex", justifyContent: "center" }}>
 
           <p style={{ fontSize: "1em" }} className={'description'}>
-            👋 Hai Sister, lagi cari tas 👜 dan sepatu 👠 branded ?! Kami menjual produk sisa counter dari brand terkenal Zara, Charles & Keith, Guess, Pedro dengan harga 70% lebih murah dari counter di Mall!! 🤩💰 Harga mulai dari 300 ribuan dan udah pasti dijamin barang original 💯%. Meishashoes.id berdiri sejak Agustus 2019 dan sudah ratusan testimoni yang puas belanja dengan kami. Kalian penasaran sama produk yg kita jual?! Silahkan lihat katalog produk kami di <b>Instagram <a href="https://instagram.com/meisha_shoes.id" style={{ borderBottom: "1px solid" }} target="_blank" rel="noopener noreferrer">@meisha_shoes.id</a></b> atau pesan cepat via <b>Whatsapp <a onClick={() => { alert('asd'); fbq('track', 'Contact'); }} href="https://bit.ly/meishashoes" style={{ borderBottom: "1px solid" }} target="_blank" rel="noopener noreferrer">0815-1311-8658</a></b>. Klik link yang ada di bawah ini 👇👇 untuk mengetahui lebih lanjut. Happy Shopping Sis!! 🛒
+            👋 Hai Sister, lagi cari tas 👜 dan sepatu 👠 branded ?! Kami menjual produk sisa counter dari brand terkenal Zara, Charles & Keith, Guess, Pedro dengan harga 70% lebih murah dari counter di Mall!! 🤩💰 Harga mulai dari 300 ribuan dan udah pasti dijamin barang original 💯%. Meishashoes.id berdiri sejak Agustus 2019 dan sudah ratusan testimoni yang puas belanja dengan kami. Kalian penasaran sama produk yg kita jual?! Silahkan lihat katalog produk kami di <b>Instagram <a onClick={() => { fbq('track', 'viewContent'); }} href="https://instagram.com/meisha_shoes.id" style={{ borderBottom: "1px solid" }} target="_blank" rel="noopener noreferrer">@meisha_shoes.id</a></b> atau pesan cepat via <b>Whatsapp <a onClick={() => { fbq('track', 'Contact'); }} href="https://bit.ly/meishashoes" style={{ borderBottom: "1px solid" }} target="_blank" rel="noopener noreferrer">0815-1311-8658</a></b>. Klik link yang ada di bawah ini 👇👇 untuk mengetahui lebih lanjut. Happy Shopping Sis!! 🛒
         </p>
         </div>
         {/* <div style={{ marginBottom: "1.5em", marginTop: "2.5em", textAlign: "center" }}>
@@ -39,12 +39,12 @@ export default function Home() {
           <h2 style={{ textTransform: "uppercase", margin: "0" }}>KLIK MENU 👇👇</h2>
         </div>
         <div className={'grid'}>
-          <a id="btn-order" href="https://bit.ly/meishashoes" target="_blank" className={'card'}>
+          <a onClick={() => { fbq('track', 'Contact'); }}  id="btn-order" href="https://bit.ly/meishashoes" target="_blank" className={'card'}>
             <h4>💬 Pesan Cepat? Chat Kami 💬</h4>
             <div className={'hands'}></div>
           </a>
 
-          <a id="btn-catalogig" href="https://instagram.com/meisha_shoes.id" target="_blank" className={'card'}>
+          <a onClick={() => { fbq('track', 'viewContent'); }}  id="btn-catalogig" href="https://instagram.com/meisha_shoes.id" target="_blank" className={'card'}>
             <h4>😍 Produk terbaru 😍</h4>
           </a>
 
