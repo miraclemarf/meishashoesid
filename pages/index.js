@@ -26,7 +26,7 @@ export default function Home() {
         <div style={{ display: "flex", justifyContent: "center" }}>
 
           <p style={{ fontSize: "1em" }} className={'description'}>
-            👋 Hai Sister, lagi cari tas 👜 dan sepatu 👠 branded ?! Kami menjual produk sisa counter dari brand terkenal Zara, Charles & Keith, Guess, Pedro dengan harga 70% lebih murah dari counter di Mall!! 🤩💰 Harga mulai dari 300 ribuan dan udah pasti dijamin barang original 💯%. Meishashoes.id berdiri sejak Agustus 2019 dan sudah ratusan testimoni yang puas belanja dengan kami. Kalian penasaran sama produk yg kita jual?! Silahkan lihat katalog produk kami di <b>Instagram <a onClick={() => { fbq('track', 'ViewContent'); }} href="https://instagram.com/meisha_shoes.id" style={{ borderBottom: "1px solid" }} target="_blank" rel="noopener noreferrer">@meisha_shoes.id</a></b> atau pesan cepat via <b>Whatsapp <a onClick={() => { fbq('track', 'Contact'); }} href="https://bit.ly/meishashoes" style={{ borderBottom: "1px solid" }} target="_blank" rel="noopener noreferrer">0815-1311-8658</a></b>. Klik link yang ada di bawah ini 👇👇 untuk mengetahui lebih lanjut. Happy Shopping Sis!! 🛒
+            👋 Hai Sister, lagi cari tas 👜 dan sepatu 👠 branded ?! Kami menjual produk sisa counter dari brand terkenal Zara, Charles & Keith, Guess, Pedro dengan harga 70% lebih murah dari counter di Mall!! 🤩💰 Harga mulai dari 300 ribuan dan udah pasti dijamin barang original 💯%. Meishashoes.id berdiri sejak Agustus 2019 dan sudah ratusan testimoni yang puas belanja dengan kami. Kalian penasaran sama produk yg kita jual?! Silahkan kunjungi katalog produk kami di <b>Instagram <a onClick={() => { fbq('track', 'ViewContent'); }} href="https://instagram.com/meisha_shoes.id" style={{ borderBottom: "1px solid" }} target="_blank" rel="noopener noreferrer">@meisha_shoes.id</a></b> dan <b>Shopee <a onClick={() => { fbq('track', 'ViewContent'); }} href="https://shopee.co.id/meishashoes.id" style={{ borderBottom: "1px solid" }} target="_blank" rel="noopener noreferrer">meishashoes.id</a></b>. Sister juga bisa tanya dan pesan cepat via <b>Whatsapp <a onClick={() => { fbq('track', 'Contact'); }} href="https://bit.ly/meishashoes" style={{ borderBottom: "1px solid" }} target="_blank" rel="noopener noreferrer">0815-1311-8658</a></b>. Klik link yang ada di bawah ini 👇👇 untuk mengetahui lebih lanjut. Happy Shopping Sis!! 🛒
         </p>
         </div>
         {/* <div style={{ marginBottom: "1.5em", marginTop: "2.5em", textAlign: "center" }}>
@@ -44,7 +44,7 @@ export default function Home() {
             <div className={'hands'}></div>
           </a>
 
-          <a onClick={() => { fbq('track', 'ViewContent'); }}  id="btn-catalogig" href="https://instagram.com/meisha_shoes.id" target="_blank" className={'card'}>
+          <a onClick={() => { fbq('track', 'ViewContent'); }}  id="btn-catalogig" href="https://shopee.co.id/meishashoes.id" target="_blank" className={'card'}>
             <h4>😍 Produk terbaru 😍</h4>
           </a>
 
@@ -73,11 +73,14 @@ export default function Home() {
               </a>
               {/* https://www.flaticon.com/svg/static/icons/svg/145/145802.svg */}
               {/* https://www.flaticon.com/svg/static/icons/svg/2111/2111463.svg */}
-              <a href="https://vt.tiktok.com/ZSxbJMuE/" target="_blank">
-                <div style={{ marginRight: "10px", background: "white", borderRadius: "50%", width: "45px", height: "45px", display: "flex", alignItems: "center" }}><img style={{ width: "auto", margin: "auto" }} height={"22"} src="https://www.flaticon.com/svg/static/icons/svg/3046/3046121.svg" alt="" /></div>
+              <a href="https://shopee.co.id/meishashoes.id" target="_blank">
+                <div style={{ marginRight: "10px", background: "white", borderRadius: "50%", width: "45px", height: "45px", display: "flex", alignItems: "center" }}><img style={{ width: "auto", margin: "auto" }} height={"22"} src="/shopee-logo.png" alt="" /></div>
               </a>
               <a onClick={() => { fbq('track', 'Contact'); }} href="https://bit.ly/meishashoes" target="_blank">
-                <div style={{ background: "white", borderRadius: "50%", width: "45px", height: "45px", display: "flex", alignItems: "center" }}><img style={{ width: "auto", margin: "auto" }} height={"22"} src="https://www.flaticon.com/svg/static/icons/svg/1384/1384055.svg" alt="" /></div>
+                <div style={{ marginRight: "10px", background: "white", borderRadius: "50%", width: "45px", height: "45px", display: "flex", alignItems: "center" }}><img style={{ width: "auto", margin: "auto" }} height={"22"} src="https://www.flaticon.com/svg/static/icons/svg/1384/1384055.svg" alt="" /></div>
+              </a>
+              <a href="https://vt.tiktok.com/ZSxbJMuE/" target="_blank">
+                <div style={{ background: "white", borderRadius: "50%", width: "45px", height: "45px", display: "flex", alignItems: "center" }}><img style={{ width: "auto", margin: "auto" }} height={"22"} src="https://www.flaticon.com/svg/static/icons/svg/3046/3046121.svg" alt="" /></div>
               </a>
             </div>
           </div>
