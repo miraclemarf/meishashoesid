@@ -69,7 +69,7 @@ export default function Home() {
           </div>
             <div style={{ display: "flex", alignItems: "center", alignContent: "center" }}>
               <a onClick={() => { fbq('track', 'ViewContent'); }} href="https://www.instagram.com/meisha_shoes.id" target="_blank">
-                <div style={{ marginRight: "10px", background: "white", borderRadius: "50%", width: "45px", height: "45px", display: "flex", alignItems: "center" }}><img style={{ width: "auto", margin: "auto" }} height={"22"} src="https://www.flaticon.com/svg/static/icons/svg/2111/2111463.svg" alt="" /></div>
+                <div style={{ marginRight: "10px", background: "white", borderRadius: "50%", width: "45px", height: "45px", display: "flex", alignItems: "center" }}><img style={{ width: "auto", margin: "auto" }} height={"22"} src="/instagram.svg" alt="" /></div>
               </a>
               {/* https://www.flaticon.com/svg/static/icons/svg/145/145802.svg */}
               {/* https://www.flaticon.com/svg/static/icons/svg/2111/2111463.svg */}
@@ -77,10 +77,10 @@ export default function Home() {
                 <div style={{ marginRight: "10px", background: "white", borderRadius: "50%", width: "45px", height: "45px", display: "flex", alignItems: "center" }}><img style={{ width: "auto", margin: "auto" }} height={"22"} src="/shopee-logo.png" alt="" /></div>
               </a>
               <a onClick={() => { fbq('track', 'Contact'); }} href="https://bit.ly/meishashoes" target="_blank">
-                <div style={{ marginRight: "10px", background: "white", borderRadius: "50%", width: "45px", height: "45px", display: "flex", alignItems: "center" }}><img style={{ width: "auto", margin: "auto" }} height={"22"} src="https://www.flaticon.com/svg/static/icons/svg/1384/1384055.svg" alt="" /></div>
+                <div style={{ marginRight: "10px", background: "white", borderRadius: "50%", width: "45px", height: "45px", display: "flex", alignItems: "center" }}><img style={{ width: "auto", margin: "auto" }} height={"22"} src="/whatsapp.svg" alt="" /></div>
               </a>
               <a href="https://vt.tiktok.com/ZSxbJMuE/" target="_blank">
-                <div style={{ background: "white", borderRadius: "50%", width: "45px", height: "45px", display: "flex", alignItems: "center" }}><img style={{ width: "auto", margin: "auto" }} height={"22"} src="https://www.flaticon.com/svg/static/icons/svg/3046/3046121.svg" alt="" /></div>
+                <div style={{ background: "white", borderRadius: "50%", width: "45px", height: "45px", display: "flex", alignItems: "center" }}><img style={{ width: "auto", margin: "auto" }} height={"22"} src="/tik-tok.svg" alt="" /></div>
               </a>
             </div>
           </div>
