@@ -164,6 +164,9 @@
 .logo {
   height: 1em;
 }
+.main .logoPro img{
+  width: 150px;
+}
 
 
 @keyframes up-down {
